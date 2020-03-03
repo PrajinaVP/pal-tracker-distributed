@@ -1,4 +1,4 @@
-package io.pivotal.pal.tracker.allocations;
+package io.pivotal.pal.tracker.eurekaserver;
 
 public class AllocationForm {
 

@@ -1,8 +1,8 @@
-package io.pivotal.pal.tracker.allocations;
+package io.pivotal.pal.tracker.eurekaserver;
 
-import io.pivotal.pal.tracker.allocations.data.AllocationDataGateway;
-import io.pivotal.pal.tracker.allocations.data.AllocationFields;
-import io.pivotal.pal.tracker.allocations.data.AllocationRecord;
+import io.pivotal.pal.tracker.eurekaserver.data.AllocationDataGateway;
+import io.pivotal.pal.tracker.eurekaserver.data.AllocationFields;
+import io.pivotal.pal.tracker.eurekaserver.data.AllocationRecord;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.*;
 import java.time.LocalDate;
 import java.util.List;
 
-import static io.pivotal.pal.tracker.allocations.AllocationInfo.allocationInfoBuilder;
-import static io.pivotal.pal.tracker.allocations.data.AllocationFields.allocationFieldsBuilder;
+import static io.pivotal.pal.tracker.eurekaserver.AllocationInfo.allocationInfoBuilder;
+import static io.pivotal.pal.tracker.eurekaserver.data.AllocationFields.allocationFieldsBuilder;
 import static java.util.stream.Collectors.toList;
 
 @RestController

@@ -1,4 +1,4 @@
-package io.pivotal.pal.tracker.allocations.data;
+package io.pivotal.pal.tracker.eurekaserver.data;
 
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
