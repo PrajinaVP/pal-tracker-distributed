@@ -1,6 +1,6 @@
 package test.pivotal.pal.tracker.allocations;
 
-import io.pivotal.pal.tracker.eurekaserver.App;
+import io.pivotal.pal.tracker.allocations.App;
 import org.junit.Test;
 import org.springframework.web.client.RestTemplate;
 
