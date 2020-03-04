@@ -11,3 +11,8 @@ applications:
   services:
   - tracker-allocations-database
   - tracker-service-registry
+
+
+
+
+    gradlew cloudNativeDeveloperDistributedSystemWithServiceDiscovery -PregistrationServerUrl=https://registration-pal-praj.cfapps.io  -PbacklogServerUrl=https://backlog-pal-praj.cfapps.io -PallocationsServerUrl=https://allocations-pal-praj.cfapps.io  -PtimesheetsServerUrl=https://timesheets-pal-praj.cfapps.io
