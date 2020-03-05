@@ -1,7 +1,10 @@
 dependencies {
     compile project(":components:rest-support")
     compile "org.springframework:spring-jdbc:$springVersion"
-    compile "io.github.resilience4j:resilience4j-spring-boot2:1.2.0"
+    //compile "io.github.resilience4j:resilience4j-spring-boot2:1.2.0"
+    // https://mvnrepository.com/artifact/io.github.resilience4j/resilience4j-circuitbreaker
+    compile group: 'io.github.resilience4j', name: 'resilience4j-circuitbreaker', version: '0.12.1'
+
 
     testCompile project(":components:test-support")
 }
